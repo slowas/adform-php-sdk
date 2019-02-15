@@ -10,7 +10,7 @@ class Response
     /**
      * @param stdClass $response
      */
-    private $response;
+    public $response;
 
     /**
      * @param string $var

@@ -1,14 +1,14 @@
 <?php
-	namespace Digitouch\AdForm\Service\Campaign;
+	namespace Digitouch\AdForm\Service\Order;
 
 	use Digitouch\AdForm\AbstractService;
 	
-	class DirectLineItems {
+	class Orders extends AbstractService {
 
 	    /**
 	     * @param string $endPoint
 	     */
-	    protected $endPoint = 'http://api.adform.com/v1/buyer/direct/lineitems/';
+	    protected $endPoint = 'http://api.adform.com/v1/buyer/orders';
 
 	    /**
 	     * @param string $method
@@ -18,6 +18,7 @@
 	    /**
 	     * @param string $responseVar
 	     */
-	    protected $responseVar = 'campaigns';
+	    protected $responseVar = 'orders';
+	    protected $mandatoryParams = ['campaignId'];
     
 	}

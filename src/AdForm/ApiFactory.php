@@ -21,6 +21,8 @@ class ApiFactory
 
     const DIRECT_LINE_ITEMS = 'DirectLineItems\\DirectLineItems';
 
+    const ORDERS = 'Order\\Orders';
+
     // Reporting
     const REPORT_STATS = 'Reporting\\Stats';
     const DATA_EXPORT_LIST = 'Reporting\\DataExportsList';

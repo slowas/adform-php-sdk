@@ -20,6 +20,5 @@ class Campaigns extends AbstractService
     /**
      * @param string $responseVar
      */
-    protected $responseVar = 'campaigns';
-    
+    protected $responseVar = 'campaigns';    
 }
